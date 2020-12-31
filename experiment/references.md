@@ -1,9 +1,9 @@
 <table style="text-align:justify;">
-  <tr>
+  <tr style="background-color: white">
     <th>References</th>
     <th>Contributors list</th>
   </tr>
-  <tr>
+  <tr style="background-color: white">
     <td>
     <li>P.N Modi and S.M. Seth, "Hydraulics and Fluid Mechanics", Standard Book House, Delhi, 2010.</li>
     <li>R.K. Rajput, "Elements of Mechanical Engineering", Laxmi Publications, 2005.</li>
