@@ -7,7 +7,7 @@
 		"d": "H<sup>1/2</sup>, H<sup>1/2</sup>, H"
 	},
 	"correctAnswer": "b"
-}, {
+	}, {
 	"question": "Which of the following advantages is/are possessed by a Kaplan turbine over a Francis turbine?<br>A. Low frictional losses.<br>B. Part load efficiency is considerably high.<br>C. More compact and smaller in size.<br>Select the correct answer using the codes given below.",
 	"answers": {
 		"a": "Only A",
@@ -16,7 +16,7 @@
 		"d": "A, B and C"
 	},
 	"correctAnswer": "d"
-}, {
+	}, {
 	"question": "The diameter of the turbine runner varies as",
 	"answers": {
 		"a": "Square of power for the given head",
@@ -25,7 +25,7 @@
 		"d": "Square root of the head for given speed"
 	},
 	"correctAnswer": "d"
-}, {
+	}, {
 	"question": "The cavitation in reaction turbines is avoided, to a great extent by",
 	"answers": {
 		"a": "Using stainless steel runner of the turbine",
@@ -34,7 +34,7 @@
 		"d": "All of the above"
 	},
 	"correctAnswer": "d"
-}, {
+	}, {
 	"question": "Specific speed of the hydraulic turbine is defined as the speed of such a turbine",
 	"answers": {
 		"a": "It consumes unit discharge under unit speed",
