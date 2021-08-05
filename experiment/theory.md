@@ -135,6 +135,11 @@ Turbines works by medium discharge at average head |	Turbines works by high disc
 
 <p style="text-indent:50px;text-align:justify">The values of <img src="./images/equations/esigma.png" title="\sigma" /> from equation (1) is compared with the value of <img src="./images/equations/sigmac.png" title="\sigma_c" /> from equation (2) and if value of <img src="./images/equations/esigma.png" title="\sigma" /> is greater than <img src="./images/equations/sigmac.png" title="\sigma_c" />, cavitation will not occur in that turbine.</p>
 
+<center>Francis Turbine Working Principle</center><br>
+<center><img src="images/workingPrinciple.png" height="200" width="350"></center>
+<center>Source: (<a href="https://www.ishwaranand.com/2020/09/francis-turbine.html">https://www.ishwaranand.com/2020/09/francis-turbine.html</a>)
+</center>
+
 <h4 style="text-indent:50px;text-align:justify">Performance characteristics of Francis Turbine: </h4>
 
 <p style="text-indent:50px;text-align:justify">Performance characteristics are of three types:</p>
