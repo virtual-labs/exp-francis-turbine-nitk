@@ -1,0 +1,590 @@
+<!DOCTYPE html><html lang="en"><head>
+      <!--Google Tag Manager-->
+      <script class="gtm">
+        var dataLayer = [{
+        'labName': 'Virtual Lab',
+        'discipline': 'Test',
+        'college': 'NITK',
+        'phase': 'Testing',
+        'expName': 'PERFORMANCE CHARACTERISTICS OF FRANCIS TURBINE',
+        'expShortName': 'francis-turbine'
+        }];
+    
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5NMQ9NQ');
+      </script>
+      <!--End Google Tag Manager-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    
+    	<meta name="experiment-short-name" content="francis-turbine">
+    	<meta name="developer-institute" content="NITK">
+    	<meta name="learning-unit" content="PERFORMANCE CHARACTERISTICS OF FRANCIS TURBINE">
+    	<meta name="task-name" content="Theory">
+    
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#4076e0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4076e0">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4076e0">
+    <title>Virtual Labs</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/github-markdown.min.css">
+    <link rel="stylesheet" href="./assets/css/vlabs-style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.6-b/css/style.min.css">
+    
+    <script src="./assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <style>
+      h1 {
+      font-size: 1.8rem;
+      }
+      h2 {
+      font-size: 1.4rem;
+      }
+      h3 {
+      font-size: 1.2rem;
+      }
+
+      h2, h3 {
+      font-weight: 800;
+      }
+    </style>
+  </head>
+  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+      <!--Google Tag Manager (noscript)-->
+      <noscript class="gtm">
+        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-5NMQ9NQ" style="display:none;visibility:hidden" width="0">
+        </iframe>
+      </noscript>
+      <!--End Google Tag Manager (noscript)-->
+  
+      <header class="vlabs-header sticky-top bg-white">
+        <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
+          
+          <button class="navbar-toggler px-4" type="button" onclick="toggle()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="d-flex justify-content-center">        
+            <a href="http://vlab.co.in" class="navbar-brand">
+              <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+            </a>
+          </div>
+          
+          <div id="headerNavbar" class="d-none border-top flex-grow-1 d-lg-flex align-items-center">
+            <ul class="navbar-nav ml-auto text-center d-flex flex-md-row">
+              <li class="nav-item px-2 m-1">
+                <a href="http://vlab.co.in">HOME</a>
+              </li>
+              <li class="nav-item px-2 m-1">
+                <a href="http://vlab.co.in/participating-institutes">PARTNERS</a>
+              </li>
+              <li class="nav-item px-2 m-1">
+                <a href="http://vlab.co.in/contact-us">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+        <div class="row d-flex justify-content-between">
+          <div class="flex-column">
+		  <div class="row py-4 px-4 breadcrumbs">
+		  	<div class="title is-4 tools">Tools</div>
+		  	<span class="mx-2">
+		  		<i aria-hidden="true" class="fa fa-angle-right"></i>
+		  	</span>
+		  	<a href="performance-report.html" target="_blank">
+		  		<button class="v-button">Performance Tool</button>
+		  	</a>
+		  </div>
+	  </div>
+          <div class="flex-column">
+            <div id="plugin-bug-report"></div>
+            <div id="plugin-rating"></div>
+          </div>
+        </div>
+        <div class="row flex-grow-1 d-flex flex-nowrap flex-column flex-lg-row">
+          <div class="modal fade popupmenu" id="popupMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                              <a href="http://vlab.co.in" class="navbar-brand">
+                                  <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+                              </a>
+                          </h5>
+                          <button type="button" class="btn-close align-self-center" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body nav-menu">
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="index.html" class="p-2 ">
+                                      Aim
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="theory.html" class="p-2  current-item ">
+                                      Theory
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="pretest.html" class="p-2 ">
+                                      Pretest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="procedure.html" class="p-2 ">
+                                      Procedure
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="simulation.html" class="p-2 ">
+                                      Simulation
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="posttest.html" class="p-2 ">
+                                      Posttest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="references.html" class="p-2 ">
+                                      References
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="feedback.html" class="p-2 ">
+                                      Feedback
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="nav flex-column sidebar nav-menu flex-shrink-0 px-lg-4 align-items-center align-items-lg-start hidden d-none d-lg-flex" id="menu">
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="index.html" class="p-2 ">
+                        Aim
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="theory.html" class="p-2  current-item ">
+                        Theory
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="pretest.html" class="p-2 ">
+                        Pretest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="procedure.html" class="p-2 ">
+                        Procedure
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="simulation.html" class="p-2 ">
+                        Simulation
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="posttest.html" class="p-2 ">
+                        Posttest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="references.html" class="p-2 ">
+                        References
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="feedback.html" class="p-2 ">
+                        Feedback
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+          </div>          <div class="vlabs-page-content px-5 pb-4 flex-grow-1 markdown-body">
+            <div class="text-center fix-spacing">
+              <h2 id="performance-characteristics-of-francis-turbine">Performance Characteristics of Francis Turbine</h2>
+          
+            </div>
+              <h3 id="introduction">INTRODUCTION<br></h3>
+          <p style="text-indent:50px;text-align:justify">The Francis turbine is a reaction turbine, in which the fluid changes pressure as it moves through the turbine, giving up its energy. The turbine is located between the high pressure water source and the low pressure water exit. The inlet of turbine is in spiral shape. The guide vanes direct the water tangentially to the turbine wheel which is known as a runner. This radial flow of water acts on the runner's vanes, causing the runner to spin. The guide vanes may be adjustable to allow efficient turbine operation for a range of water flow conditions. At the point of exit, the water leaves with no swirl and very little kinetic or potential energy. The shape of the turbine's exit tube helps to decelerate the flow of water and recover the pressure.</p>
+          
+          <center>
+            <img src="images/Francis_1.png" height="380" width="450">
+          </center>
+          
+          <center>Sectional View of Francis Turbine</center><br>
+          <center>Source: (<a href="https://www.researchgate.net/figure/Basic-features-of-a-Francis-turbine-6_fig1_326934034">https://www.researchgate.net/figure/Basic-features-of-a-Francis-turbine-6_fig1_326934034</a>)
+          </center>
+          
+          <h4 style="text-indent:50px;text-align:justify"><strong>Main parts</strong>:</h4>
+          
+            <p style="text-indent:50px;text-align:justify">1. <strong>Spiral casing</strong>: The runner is completely enclosed in an air-tight spiral casing. The casing and runner are always full of water. The water from the penstocks enters the casing in which area of cross-section of the casing goes on decreasing gradually. Since the casing is spiral shape, the water enters the runner at constant velocity throughout the circumference of the runner.</p>
+          
+            <p style="text-indent:50px;text-align:justify">2. <strong>Guide vanes</strong>: The guide vanes allow the water to strike the vanes fixed on the runner without any shake at the inlet. Also by a suitable arrangement, the width between two adjacent vanes of a guide’s mechanism can be adjusted, so that the amount of water striking the runner can be varied.</p>
+          
+            <p style="text-indent:50px;text-align:justify">3. <strong>Runner/Impeller</strong>: It is a circular wheel on which a series of radial curved vanes are fixed and the surface of the vanes is made very smooth. The radial curved vanes are so shaped that the water enters and leaves the runner without shock. The runners are made of cast steel, cast iron or stainless steel. The runner is connected to the shaft.</p>
+          
+            <p style="text-indent:50px;text-align:justify">4. <strong>Draft tube</strong>: Draft tube is or pipe of gradually increasing area which is used for discharging the water from the turbine to the tail race. The pressure at the exit of the runner is generally less than atmosphere pressure. Hence the water is discharged to tail race through the draft tube.</p>
+          
+          <center>
+            <img src="images/Francis_2.png" height="380" width="380">
+          </center>
+          
+          <p style="text-indent:50px;text-align:justify">Let,</p>
+          
+          <p style="text-indent:50px;text-align:justify"><img src="./images/equations/r1.png" title="R_1">= Radius of wheel at inlet of the vane</p>
+          
+          <p style="text-indent:50px;text-align:justify"><img src="./images/equations/r2.png" title="R_2">= Radius of wheel at outlet of the vane</p>
+          
+          <p style="text-indent:50px;text-align:justify"><img src="./images/equations/omega.png" title="\omega">= Angular speed of the wheel</p>
+          
+          <p style="text-indent:50px;text-align:justify">Tangential speed of the vane at inlet = <img src="./images/equations/ur1.png" title="u_1 = \omeaga R_1"></p>
+          
+          <p style="text-indent:50px;text-align:justify">Tangential speed of the vane at outlet = <img src="./images/equations/ur2.png" title="u_2 = \omeaga R_2"></p>
+          
+          <p style="text-indent:50px;text-align:justify">The velocity triangles at inlet and outlet are drawn as shown in figure. <img src="./images/equations/alpha.png" title="\alpha"> and <img src="./images/equations/beta.png" title="\beta"> are the angles between the absolute velocities of jet and vane at inlet and outlet respectively. <img src="./images/equations/theta.png" title="\theta"> and <img src="./images/equations/fi.png" title="\psi"> are vane angles at inlet and outlet respectively.</p>
+          
+          <p style="text-indent:50px;text-align:justify">The mass of water striking a series of vanes per second = <img src="./images/equations/ra1.png" title="\rho a V_1"></p>
+          
+          <p style="text-indent:50px;text-align:justify">where, a is the area of jet or flow and <img src="./images/equations/v1.png" title="V_1"> is the velocity of flow at inlet.</p>
+          
+          <p style="text-indent:50px;text-align:justify">The momentum of water striking a series of vanes per second at inlet is given by the product of mass of water striking per second and the component of velocity of flow at inlet = <img src="./images/equations/rav.png" title="\rho a V_1 \times V_{w1}">, where <img src="./images/equations/vw.png" title="V_{w1}"> is the velocity component of flow at inlet along tangential direction. Similarly momentum of water striking a series of vanes per second at outlet is given by <img src="./images/equations/rav.png" title="\rho a V_1 \times V_{w1}">, where <img src="./images/equations/nvw.png" title="-V_{w1}"> is the velocity component of flow at inlet along tangential direction and the -ve sign is because the velocity component is acting in the opposite direction. Now angular momentum per second at inlet is given by the product of momentum of water at inlet and its radial distance = <img src="./images/equations/rvr.png" title="\rho a V_1 \times V_{w1}\times R_1"> and angular momentum per second at inlet =−<img src="./images/equations/rvr2.png" title="\rho a V_1 \times V_{w2}\times R_2"></p>
+          
+          <p style="text-indent:50px;text-align:justify">Torque exerted by water on the wheel is given by impulse momentum theorem as the rate of change of angular momentum</p>
+          <center><img src="./images/equations/t1.png" title="T = \rho aV_1 \times V_{w1} \times R_1 - (-\rho aV_1\times V_{w2}\times R_2)"></center>
+          <center><img src="./images/equations/t2.png" title="T = \rho a V_1 (V_{w1}R_1+ V_{w2} R_2)"></center>
+          
+          <p style="text-indent:50px;text-align:justify">Work done per second on the wheel = Torque x Angular velocity</p>
+          <center>=<img src="./images/equations/tw.png" title="T.\omega"></center>
+          <center>=<img src="./images/equations/tw1.png" title="\rho aV_1 (V_{w1}R_1+ V_{w2}R_2) \times \omega"></center>
+          <center>=<img src="./images/equations/tw2.png" title="\rho aV_1(V_{w1}R_1\times\omega+V_{w2}R_2\times\omega)"></center>
+          
+          <p style="text-indent:50px;text-align:justify">As <img src="./images/equations/uwr.png" title="u_1 = \omega R_1"> and <img src="./images/equations/uwr2.png" title="u_2 = \omega R_2"></p>
+          
+          <p style="text-indent:50px;text-align:justify">We can simplify the above equation as</p>
+          <center><img src="./images/equations/wds.png" title="WD/s = \rho aV_1 (V_{w1}u_1+ V_{w2}u_2)"></center>
+          <p style="text-indent:50px;text-align:justify">In the above case, always the velocity of whirl at outlet is given by both magnitude and direction as</p>
+          <center><img src="./images/equations/vw2.png" title="V_{w2} = (V_{r2} \cos\phi -u_2 )"></center>
+          <p style="text-indent:50px;text-align:justify">If the discharge is radial at outlet, then <img src="./images/equations/vw3.png" title="V_{w2} = 0"> and</p>
+          <p style="text-indent:50px;text-align:justify">Hence the equation reduces to,</p>
+          <center><img src="./images/equations/wds1.png" title="WD/s = \rho a u_1 V_1 V_{w1}"></center>
+          <center><img src="./images/equations/kes.png" title="KE/s = \frac{1}{2} \rho aV_1^3"></center>
+          <p style="text-indent:50px;text-align:justify">Efficiency of the reaction turbine is given by,</p>
+          <center><img src="./images/equations/eta.png" title="\eta = \frac{workdone/sec}{power developed/sec} = \frac{\rho a (V_{w1}+ V_{w2})}{\frac{1}{2} \rho aV_1^3}"></center>
+          <p style="text-indent:50px;text-align:justify">Note: The value of the velocity of whirl at outlet is to be substituted as <img src="./images/equations/vw4.png" title="V_{w2}= (V_{r2} \cos \phi -u_2)">along with its sign.</p>
+          <center>=<img src="./images/equations/vw5.png" title="\frac {2(u_1V_{w1}+ u_2V_{w2})}{V_1^2}"></center>
+          <center>Speed ratio = <img src="./images/equations/ugh2.png" title="\frac {u_1}{\sqrt{2gH}}"></center>
+          <p style="text-indent:50px;text-align:justify">Where, H is the Head on turbine, it varies from 0.6 to 0.9.</p>
+          <center>Flow ratio=<img src="./images/equations/vgh.png" title="\frac {V_{f1}}{\sqrt{2gH}}"></center>
+          <p style="text-indent:50px;text-align:justify">Where, <img src="./images/equations/vf.png" title="V_{f1}"> is the velocity of flow at inlet, it varies from 0.15 to 0.3.</p>
+          <p style="text-indent:50px;text-align:justify">Discharge flowing through the reaction turbine is given by</p>
+          <center><img src="./images/equations/q.png" title="Q = \frac{\rho Q(V_{w1}u_1 \pm V_{w2}u_2 )}{\rho g H Q} = \frac{1}{gh}(V_{w1}u_1 \pm V_{w2}u_2 )"></center>
+          <p style="text-indent:50px;text-align:justify">Where, <img src="./images/equations/d1.png" title="D_1"> and <img src="./images/equations/d2.png" title="D_2"> are the diameter of the runner at inlet and outlet. <img src="./images/equations/b1.png" title="B_1"> and <img src="./images/equations/b2.png" title="B_2"> are the width of the runner at inlet and outlet. <img src="./images/equations/vf.png" title="V_{f1}"> and <img src="./images/equations/vf2.png" title="V_{f2}"> velocity at inlet and outlet. If the thickness<img src="./images/equations/t.png" title="(t)"> of the vane is to be considered, then</p>
+          <p style="text-indent:50px;text-align:justify">The area through which flow takes place is given by</p>
+          <center><img src="./images/equations/pd.png" title="=(\pi D_1-nt)"></center>
+          <p style="text-indent:50px;text-align:justify">Where, n is the number of vanes mounted on the runner.</p>
+          <p style="text-indent:50px;text-align:justify">Discharge flowing through the reaction turbine is given by</p>
+          <center><img src="./images/equations/q1.png" title="Q= (\pi D_1-nt) B_1V_{f1} = (\pi D_2-nt) B_2V_{f2}"></center>
+          <p style="text-indent:50px;text-align:justify">The head <img src="./images/equations/h.png" title="(H)"> on the turbine is given by</p>
+          <center><img src="./images/equations/ppg.png" title="= \frac{P_1}{\rho g }+\frac{V_1^2}{2g}"></center>
+          <center><img src="./images/equations/u1.png" title="u_1 = \frac{\pi DN}{60}"> and <img src="./images/equations/u2.png" title="u_2 = \frac{\pi DN}{60}"></center>
+          <p style="text-indent:50px;text-align:justify">Hydraulic efficiency is</p>
+          <center><img src="./images/equations/pqgh.png" title="= \frac{\rho Q(V_{w1}u_1 \pm V_{w2}u_2 )}{\rho g H Q} = \frac{1}{gh}(V_{w1}u_1 \pm V_{w2}u_2 )"></center>
+          <p style="text-indent:50px;text-align:justify">If the discharge at the exit is radial then <img src="./images/equations/vw20.png" title="V_{w2}=0">,</p>
+          
+          <p style="text-indent:50px;text-align:justify">Hence hydraulic efficiency is</p>
+          <center><img src="./images/equations/uvw.png" title="\frac{1}{gH}(V_{w1}u_1)"></center>
+          
+          <h4 style="text-indent:50px;text-align:justify">Comparison of Francis turbine and Kaplan turbine</h4>
+          <center>
+          
+          <table>
+          <thead>
+          <tr>
+          <th align="center">Francis Turbine</th>
+          <th align="center">Kaplan Turbine</th>
+          </tr>
+          </thead>
+          <tbody><tr>
+          <td align="center">Normal range of head:30-550m</td>
+          <td align="center">Normal range of head:1.5-80m</td>
+          </tr>
+          <tr>
+          <td align="center">Number of vanes:15-25</td>
+          <td align="center">Number of vanes:3-8</td>
+          </tr>
+          <tr>
+          <td align="center">Specific speed:50-250 60-400</td>
+          <td align="center">Specific speed:300-1000</td>
+          </tr>
+          <tr>
+          <td align="center">Cavitation susceptibility</td>
+          <td align="center">Greater cavitation susceptibility</td>
+          </tr>
+          <tr>
+          <td align="center">Overall efficiency is good</td>
+          <td align="center">Overall efficiency is better than Francis turbine</td>
+          </tr>
+          <tr>
+          <td align="center">Requires large area</td>
+          <td align="center">Requires less area</td>
+          </tr>
+          <tr>
+          <td align="center">Normal speed of runner:90-1000</td>
+          <td align="center">Normal speed of runner:70-600</td>
+          </tr>
+          <tr>
+          <td align="center">Flow of water is radially and mixed flow type</td>
+          <td align="center">Flow of water is axial</td>
+          </tr>
+          <tr>
+          <td align="center">Flow regulation is by guide vanes</td>
+          <td align="center">Flow regulation is by needle valve fitted into nozzle</td>
+          </tr>
+          <tr>
+          <td align="center">Turbines works by medium discharge at average head</td>
+          <td align="center">Turbines works by high discharge low head</td>
+          </tr>
+          </tbody></table>
+          </center>
+          
+          <h4 style="text-indent:50px;text-align:justify">Cavitation: </h4>
+          
+          <p style="text-indent:50px;text-align:justify">Cavitation is an effect mainly on the reaction turbine when water pressure drops below the critical pressure (generally vapour pressure) at constant temperature and vapour cavities are formed and grow based on the dynamic pressure reduction. Cavitation in hydraulic machines negatively affects their performance and may cause severe damages. Cavitation commonly occurs in hydraulic turbines, around runner exit and in the draft tube.</p>
+          
+          <p style="text-indent:50px;text-align:justify">Cavitation is a phenomenon occurs when the static pressure of the liquid falls below its vapour pressure, the liquid boils and large number of small bubbles of vapours are formed. These bubbles mainly formed due to low pressure and carried by the stream to higher pressure zones where the vapours condense and the bubbles suddenly collapse, as the vapours are condensed to liquid again. This results in the formation of a cavity and the surrounding liquid rushes to fill it from all direction which collide at the centre of cavity giving rise to a very high local pressure whose magnitude may be as high as 7000 atm. Formation of cavity and high pressure are repeated many thousand times a second. This causes pitting on the metallic surface of runner blades or draft tube. The material then fails by fatigue, added by corrosion.</p>
+          
+          <p style="text-indent:50px;text-align:justify">There are two ways to reduce the cavitation damage. One involves optimizing the hydraulic design of equipment and the other involves developing coatings for the substrates of wetted parts, which can prolong the overhaul interval of hydraulic components.</p>
+          
+          <p style="text-indent:50px;text-align:justify">Cavitation in general is slow process but the effect of cavitation is severe. Damaged caused by cavitation, if summarized are: erosion of material from turbine parts, distortion of blade angle, loss of efficiency due to erosion/distortion (Santa JF et al, 2009) . Prof. D Thoma Suggested a dimensionless number called as Thoma's Cavitation factor σ (sigma), which can be used for determining the region where cavitation takes place in reaction turbines</p>
+          
+          <center><img src="./images/equations/sigma.png" title="\sigma = \frac{H_a - H_v - H_s}{H}---(1)"></center>
+          
+          <p style="text-indent:50px;text-align:justify">Where,</p>
+          
+          <p style="text-indent:50px;text-align:justify"><img src="./images/equations/ha.png" title="H_a"> is the atmospheric pressure head in m of water</p>
+          
+          <p style="text-indent:50px;text-align:justify"><img src="./images/equations/hs.png" title="H_s"> is the suction pressure at outlet of reaction turbine in m of water or height of turbine runner above the tail water surface,</p>
+          
+          <p style="text-indent:50px;text-align:justify"><img src="./images/equations/hv.png" title="H_v"> is vapour pressure head,</p>
+          
+          <p style="text-indent:50px;text-align:justify"><img src="./images/equations/h1.png" title="H"> is the net head on the turbine in m of water</p>
+          
+          <p style="text-indent:50px;text-align:justify">The value of <img src="./images/equations/esigma.png" title="\sigma"> depends on<img src="./images/equations/ns.png" title="N_s"> (specific speed) of the turbine and for a turbine of given <img src="./images/equations/ns.png" title="N_s"> the factor <img src="./images/equations/esigma.png" title="\sigma"> can be reduced up-to a certain value up to which its efficiency, <img src="./images/equations/no.png" title="\eta_o"> remains constant. A further decrease in value of <img src="./images/equations/esigma.png" title="\sigma"> can be reduced up-to a certain value up to which its efficiency, <img src="./images/equations/no.png" title="\eta_o"> remains constant. A further decrease in value of <img src="./images/equations/esigma.png" title="\sigma"> results in a sharp fall in <img src="./images/equations/no.png" title="\eta_o">. The value of <img src="./images/equations/esigma.png" title="\sigma"> at this turning point is called critical cavitation factor <img src="./images/equations/sigmac.png" title="\sigma_c">. The value of <img src="./images/equations/esigma.png" title="\sigma"> for different turbines may be determined with the help of following empirical relationships:</p>
+          
+          <p style="text-indent:50px;text-align:justify">For Francis Turbine:</p>
+          <center><img src="./images/equations/sigmac2.png" title="\sigma^c = 0.625 \times \frac{N_s}{380.78}^2 ----(2)"></center>
+          
+          <p style="text-indent:50px;text-align:justify">The values of <img src="./images/equations/esigma.png" title="\sigma"> from equation (1) is compared with the value of <img src="./images/equations/sigmac.png" title="\sigma_c"> from equation (2) and if value of <img src="./images/equations/esigma.png" title="\sigma"> is greater than <img src="./images/equations/sigmac.png" title="\sigma_c">, cavitation will not occur in that turbine.</p>
+          
+          <center>Francis Turbine Working Principle</center><br>
+          <center><img src="images/workingPrinciple.png" height="200" width="350"></center>
+          <center>Source: (<a href="https://www.ishwaranand.com/2020/09/francis-turbine.html">https://www.ishwaranand.com/2020/09/francis-turbine.html</a>)
+          </center>
+          
+          <h4 style="text-indent:50px;text-align:justify">Performance characteristics of Francis Turbine: </h4>
+          
+          <p style="text-indent:50px;text-align:justify">Performance characteristics are of three types:</p>
+          
+          <p style="text-indent:50px;text-align:justify">a. <strong>Constant head characteristics</strong>:</p>
+          
+          <p style="text-indent:50px;text-align:justify">In order to obtain these curves the tests are performed on the turbine by maintaining a constant head and a constant gate opening and the speed is raised by changing the load on the turbine.</p>
+          
+          <p><img src="images/Francis_14.png" height="200" width="300"><img src="images/Francis_15.png" height="200" width="300"><img src="images/Francis_16.png" height="200" width="300"></p>
+          <center>Constant Head Characteristics</center><br>
+          <center>Source: (<a href="http://mechanics4change.blogspot.com/2017/12/turbine-characteristic-curve.html">http://mechanics4change.blogspot.com/2017/12/turbine-characteristic-curve.html</a>)
+          </center><br>
+          
+          <p style="text-indent:50px;text-align:justify">b. <strong>Constant speed characteristics</strong>:</p>
+          
+          <p style="text-indent:50px;text-align:justify">In order to obtain these curves the tests are performed on the turbine by operating them at constant speed.</p>
+          
+          <p><img src="images/Francis_17.png" height="200" width="300"><img src="images/Francis_18.png" height="200" width="300"><img src="images/Francis_19.png" height="200" width="300"><br></p>
+          <center>Constant Speed Characteristics</center><br>
+          <center>Source: (<a href="http://mechanics4change.blogspot.com/2017/12/turbine-characteristic-curve.html">http://mechanics4change.blogspot.com/2017/12/turbine-characteristic-curve.html</a>)
+          </center><br>
+          
+          <p style="text-indent:50px;text-align:justify">c. <strong>Constant efficiency curves</strong>:</p>
+          
+          <p style="text-indent:50px;text-align:justify">These curves show the efficiency of the turbine for all conditions of running and hence these are also known as universal characteristic curves.</p>
+          <center>
+          <img src="images/Francis_20.png" height="200" width="300">
+          </center>
+          
+          <center>Constant Speed Characteristics</center><br>
+          <center>Source: (<a href="https://www.researchgate.net/figure/Efficiency-hill-chart-of-existing-turbine-Q-11opt-073-N-11opt-65-and-opt-92_fig7_245356930">https://www.researchgate.net/figure/Efficiency-hill-chart-of-existing-turbine-Q-11opt-073-N-11opt-65-and-opt-92_fig7_245356930</a>)
+          </center>
+          
+          </div>
+        </div>
+      </div>
+      <footer class="text-light pt-2 vlabs-footer d-flex flex-column">
+        <div class="row px-5 mx-0">
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
+            <a href="http://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
+            <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
+            <a href="http://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
+            <span> Phone: General Information: 011-26582050 </span>
+            <span> Email: support@vlabs.ac.in </span>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
+            <div class="social-links">
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
+      	  <i class="fa fa-twitter"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
+      	  <i class="fa fa-facebook"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+      	  <i class="fa fa-youtube"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
+      	  <i class="fa fa-linkedin"></i>
+      	</a>
+            </div>
+          </div>
+        </div>
+        <div class="m-0 py-2 text-center" style="font-family: &quot;Open Sans&quot;, sans-serif; background: #212121;">
+          <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
+          &nbsp;&amp;&nbsp;
+          <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+        </div>
+      </footer>
+
+      <script src="./assets/js/toggleSidebar.js"></script>
+      
+  
+
+<script type="module" src="https://vjspranav.github.io/vleads-bug-report/client/app.js"></script></body></html>
