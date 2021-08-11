@@ -1,4 +1,14 @@
-<table style="text-align:justify;">
+### Lagu paTa:
+
+#### Simulation demo:
+<li>Francis Turbine - Constant Speed: <a href="https://youtu.be/FrtEIvZvP20">https://youtu.be/FrtEIvZvP20</a></li>
+<li>Francis Turbine - Constant Head: <a href="https://youtu.be/c253KZ4JIpE">https://youtu.be/c253KZ4JIpE</a></li>
+
+#### Experimental demo:
+<li>Francis Turbine - Constant Speed: <a href="https://youtu.be/BGlrRI8--xQ">https://youtu.be/BGlrRI8--xQ</a></li>
+<li>Francis Turbine - Constant Head: <a href="https://youtu.be/yC_aY3Ks9ds">https://youtu.be/yC_aY3Ks9ds</a></li>
+
+<table style="text-align:justify;margin-top: 15px">
   <tr style="background-color: white">
     <th>References</th>
     <th>Contributors list</th>
